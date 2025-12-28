@@ -1,0 +1,21 @@
+[project]
+name = "mobile_price_prediction"
+version = "0.1.0"
+description = "A data science project to classify mobile phone price ranges."
+authors = ["Brian M Johnson <brianmj02@proton.me>"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+
+[tasks]
+start = "jupyter lab"
+
+[dependencies]
+python = ">=3.9"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+shap = "*"
+jupyterlab = "*"
+ipykernel = "*"
